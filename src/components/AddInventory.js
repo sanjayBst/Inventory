@@ -1,10 +1,12 @@
+import {Fragment} from 'react';
+import AddInventoryForm from "./AddInventoryForm";
+
 const AddInventory = () =>{
     return (
-    <div>
-   
-   <h2> Add Inventory </h2>
-     
-    </div>
+    <Fragment>
+    <h2> Add Inventory </h2>
+     <AddInventoryForm />
+    </Fragment>
     )
 }
 
