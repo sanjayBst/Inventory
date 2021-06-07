@@ -4,7 +4,7 @@ import Header from './myComponents/Header';
 function App() {
   return (
     <>
-    <Header/>
+    <Header title = "Inventory"/>
     </>
   );
 }

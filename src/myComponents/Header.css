@@ -1,23 +1,33 @@
 .k {
     overflow: hidden;
-    background-color: #333;
+    background-color: #2c2c2c;
+    /* #0476aa */
   }
   
   .k a {
-    float: left;
+    float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 40px;
     text-decoration: none;
     font-size: 17px;
   }
   
-  .k a:hover {
-    background-color: rgb(8, 170, 81);
-    color: black;
+.k a.sample:hover{
+    background-color: #2c2c2c;
+    color: rgb(28, 224, 28);
   }
-  
-  .k a.active {
-    background-color: #0476aa;
-    color: white;
+
+
+.k a.active{
+    background-color: #10ce29;
+    border-radius: 70px 19px;
+    /* color: black; */
+  }
+
+  .k a.navbar-brand {
+    float: left;
+      cursor:auto;
+      font-weight: bold;
+      
   }
