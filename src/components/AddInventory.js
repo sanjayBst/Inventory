@@ -1,11 +1,19 @@
 import {Fragment} from 'react';
 import AddInventoryForm from "./AddInventoryForm";
 
-const AddInventory = () =>{
+const AddInventory = (props) =>{
+
+    const onAddInventory = (item) =>{
+       
+        props.onAddToInventor(item);
+    }
+
+
     return (
     <Fragment>
-    <h2> Add Inventory </h2>
-     <AddInventoryForm />
+
+     <h2> Add Inventory </h2>
+     <AddInventoryForm  onAddInventory={onAddInventory}/>
     </Fragment>
     )
 }
