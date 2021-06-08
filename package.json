@@ -2,7 +2,7 @@
   "name": "first-app",
   "version": "0.1.0",
   "private": true,
-   "homepage": "https://sanjayBst.github.io/Inventory/,
+  "homepage": "https://sanjayBst.github.io/Inventory/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.7",
